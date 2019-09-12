@@ -1,16 +1,9 @@
 body{
     background-color:plum;
 }
-.yuan{
-   width:200px;
-    height:200px;
-    border-radius:50%;
-    color:bule;
-    
-}
-.yuan:hover{
+.circle{
     width:200px;
     height:200px;
     border-radius:50%;
-    background-color:yellow;
+    color:bule;
 }
