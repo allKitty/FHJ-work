@@ -1,3 +1,3 @@
-function yellow(obj){
-    obj.style.backgroundColor="yellow";
+document.querySelector(".circle").onclick=function(){
+	document.querySelector(".circle").style.backgroundColor="yellow";
 }
