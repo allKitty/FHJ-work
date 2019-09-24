@@ -11,7 +11,7 @@
 2.如果有10个div元素,在不给元素设置id的情况下如何找到第4个div元素?
 答:通过标签名来获取该元素，然后再通过数组的下标可找到该元素.
    如： var div = document.getElementsByTagName('div');
-        console.log(div[4]);
+        console.log(div[3]);
 
 3.querySelector()和querySelectorAll()的区别?
 答:querySelector()只能找到元素中的第一个元素 ; 而querySelectorAll()则可以找到全部.
@@ -25,5 +25,5 @@
    </html>
    <script>
    var div=document.getElementById("div");
-   div.className="blue"; 
+   div.className="box blue"; 
    </script>
